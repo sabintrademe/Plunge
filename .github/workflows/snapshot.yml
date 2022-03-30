@@ -24,7 +24,7 @@ jobs:
       - name: Source jar and dokka
         run: ./gradlew androidSourcesJar javadocJar
       - name: Publish to MavenCentral
-        run: ./gradlew publishReleasePublicationToSonatypeRepository
+        run: ./gradlew --version
 
 
 
