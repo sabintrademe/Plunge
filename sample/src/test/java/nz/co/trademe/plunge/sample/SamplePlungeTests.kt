@@ -24,7 +24,7 @@ class SamplePlungeTests {
          * the test source set (i.e. /sample/src/test/test-cases/).
          */
         @JvmStatic
-        private val pathToTests = "/src/test/test-cases"
+        private val pathToTests =  "../sample/src/test/test-cases"
 
         /**
          * Declare a static function which returns a collection of Object arrays.
